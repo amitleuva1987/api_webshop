@@ -1,6 +1,6 @@
 ## How to Install
 
--   clone the repository into your local machine.
+-   clone the repository into your local machine using `git clone https://github.com/amitleuva1987/api_webshop.git`.
 -   Install dependencies using `composer install`
 -   copy .env.example and create an .env file, and place the database details in .env file
 -   Run `php artisan migrate` to create all database tables
