@@ -20,7 +20,7 @@
 
     4 Update an order (PUT) -> http://localhost:8000/api/orders/{id}
 
-    4 Delete an order (DELETE) -> http://localhost:8000/api/orders/{id}
+    5 Delete an order (DELETE) -> http://localhost:8000/api/orders/{id}
 
 -   Add product to an order API
 
