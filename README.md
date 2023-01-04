@@ -4,7 +4,7 @@
 -   Install dependencies using `composer install`
 -   copy .env.example and create an .env file, and place the database details in .env file
 -   Run `php artisan migrate` to create all database tables
--   Run 'php artisan import:data' command to import the given customers and products
+-   Run `php artisan import:data` command to import the given customers and products
 -   Run `php artisan serve` to start the application
 -   Application is running at http://localhost:8000
 
@@ -13,9 +13,13 @@
 -   Orders CRUD Operations APIs
 
     1 List all orders (GET) -> http://localhost:8000/api/orders
+
     2 Retrive a single order (GET) -> http://localhost:8000/api/orders/{id}
+
     3 Create an order (POST) -> http://localhost:8000/api/orders
+
     4 Update an order (PUT) -> http://localhost:8000/api/orders/{id}
+
     4 Delete an order (DELETE) -> http://localhost:8000/api/orders/{id}
 
 -   Add product to an order API
