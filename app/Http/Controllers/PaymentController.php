@@ -35,7 +35,7 @@ class PaymentController extends Controller
 
                 $response_data = json_decode($response->getBody(), true);
 
-                return response()->json($response_data);
+                return response()->json($response_data, 200);
             } catch (\Exception $e) {
                 return response()->json(
                     [
