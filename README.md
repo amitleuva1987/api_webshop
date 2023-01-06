@@ -30,6 +30,10 @@
 
     (POST) http://localhost:8000/api/orders/{id}/pay
 
+## API Testing
+
+-   Run `php artisan test` to test the all API's
+
 ## Estimated and Tracked time
 
 -   I estimated 2 hours of work for this assignment, But it took 3 hours 15 minutes to complete this assignment

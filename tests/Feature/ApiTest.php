@@ -190,6 +190,7 @@ class ApiTest extends TestCase
         $response1 = $this->json('POST', 'api/orders/' . $orderid . '/add', [
             'product_id' => $product->id
         ]);
+
         $response1->assertStatus(200);
         $this->assertDatabaseCount('order_products', 1);
 
